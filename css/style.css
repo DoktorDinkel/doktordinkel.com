@@ -39,3 +39,9 @@ a {
     font-family: fantasy;
     margin-left: 0;
 }
+
+#homeBg {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
