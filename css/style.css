@@ -16,6 +16,8 @@ a {
 }
 
 .topNav {
+    background-image: url("images/triangles-download.png");
+    height: 100%;
     font-weight: bold;
     font-size: 30px;
     background-color: #c3073f;
