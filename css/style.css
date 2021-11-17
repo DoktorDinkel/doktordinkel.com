@@ -1,9 +1,49 @@
-* {
+/*
+https://visme.co/blog/website-color-schemes/
+https://msurguy.github.io/triangles/
+*/
+
+body {
+    background-color: #1A1A1D;
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-grid-wrapper {
-    display: grid;
-    
+a {
+    text-decoration: none;
+}
+
+.topNav {
+    background-image: url("images/triangles-download.png");
+    height: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #c3073f;
+    padding: 10px;
+}
+
+.topNav a {
+    color: #1A1A1D;
+    margin-left: 50px;
+}
+
+.topNav a:hover {
+    color: white;
+}
+
+.topNav #currentPage {
+    text-decoration: underline;
+}
+
+.topNav #dinkelCorner {
+    font-family: fantasy;
+    margin-left: 0;
+}
+
+#homeBg {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
 }
